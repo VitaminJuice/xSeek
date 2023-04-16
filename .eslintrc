@@ -31,11 +31,9 @@
   },
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended",
     "plugin:react-hooks/recommended"
   ],
-  "plugins": ["react-hooks", "prettier", "import"],
+  "plugins": ["react-hooks", "import"],
   "rules": {
     "import/order": [
       "warn",
@@ -56,12 +54,6 @@
         }
       }
     ],
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "lf"
-      }
-    ],
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -69,7 +61,6 @@
     "react/jsx-one-expression-per-line": "off",
     "react/prop-types": "off",
     "react/display-name": "off",
-    "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "object-curly-newline": "off",
