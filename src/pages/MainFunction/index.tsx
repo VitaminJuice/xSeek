@@ -32,7 +32,7 @@ export const MainFunction = () => {
 
   return (
     <div className='xseek-erd'>
-      {/* <div className='top-text'>
+      <div className='top-text'>
         <b>Enter an ERD</b>
         Utilize xSeek to privately back check an ERD address, to learn more
         about transfers, values, and numbers.
@@ -75,7 +75,7 @@ export const MainFunction = () => {
             on them once.
           </div>
         </div>
-      </div> */}
+      </div>
       {filterOpened ? (
         <FilterBar setFilterOpened={setFilterOpened} />
       ) : (
