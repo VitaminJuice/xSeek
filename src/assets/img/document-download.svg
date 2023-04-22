@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+	<title>document-download - Copy-svg</title>
+	<defs>
+		<image  width="17" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAMAAACXIvXeAAAAAXNSR0IB2cksfwAAAD9QTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsyWCLwAAABV0Uk5TAFB/bxCw/8/wgNBwiGDn9O8t3ECgIj2qmgAAAHtJREFUeJxt0AEOgyAMBdCC3Wdl6nB6/7OuYqG47JMAeTRtAhGFWDMxWR6wJKOAp9TkRgK5nrhRl04ujQYxMuE6XOnVRPRqPbrIKBxZD927CNKMOWHxmoxVV/aak3DC0JnfKHyftX22n+mW/xJQoqdgJzow5qi/KB6t+AJDnQZ7nhd7eQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="4" y="2"/>
+</svg>

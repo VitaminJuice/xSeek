@@ -1,0 +1,51 @@
+.mobile-top-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 63px;
+  gap: 10px;
+  font-family: 'Roboto';
+  background: #17171a;
+
+  @media only screen and (min-width: 769px) {
+    display: none;
+  }
+
+  .left-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 19px 0px 19px 25px;
+    gap: 5px;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+
+    .right-label-mobile {
+      display: flex;
+      align-items: flex-end;
+      font-size: 15px;
+      font-weight: 500px;
+      color: #dfe0ea;
+    }
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 25px 0px 25px;
+    gap: 10px;
+
+    .connect-label-mobile {
+      display: flex;
+      font-size: 15px;
+      font-weight: normal;
+      color: #dfe0ea;
+    }
+  }
+}

@@ -2,14 +2,14 @@ import { dAppName } from 'config';
 import { RouteType } from 'types';
 import { withPageTitle } from './components/PageTitle';
 
-import { Dashboard, Home, SignMessage, Statistics } from './pages';
+import { Dashboard, Home, TermService, MainFunction } from './pages';
 
 export const routeNames = {
   home: '/',
+  unlock: '/unlock',
   dashboard: '/dashboard',
-  statistics: '/statistics',
-  signMessage: '/sign-message',
-  unlock: '/unlock'
+  termService: '/term-service',
+  mainFunction: '/main-function'
 };
 
 interface RouteWithTitleType extends RouteType {
@@ -23,22 +23,19 @@ export const routes: RouteWithTitleType[] = [
     component: Home
   },
   {
-    path: routeNames.statistics,
-    title: 'Statistics',
-    component: Statistics,
-    authenticatedRoute: true
-  },
-  {
     path: routeNames.dashboard,
     title: 'Dashboard',
-    component: Dashboard,
-    authenticatedRoute: true
+    component: Dashboard
   },
   {
-    path: routeNames.signMessage,
-    title: 'Sign Message',
-    component: SignMessage,
-    authenticatedRoute: true
+    path: routeNames.termService,
+    title: 'Terms And Service',
+    component: TermService
+  },
+  {
+    path: routeNames.mainFunction,
+    title: 'Main Function',
+    component: MainFunction
   }
 ];
 
